@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+
+[[mods]]
+    modId="pei"
+    version="${file.jarVersion}"
+    displayName="ProjectEconomy"
+    logoFile="logo.png"
+    authors="booky10"
+    description='An integration for Project E and Grand Economy'
+
+[[dependencies.pei]]
+    modId="forge"
+    mandatory=true
+    versionRange="[28,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.pei]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.14.4]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.pei]]
+    modId="projecte"
+    mandatory=true
+    versionRange="[1.14.4-PE1.0.1B,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.pei]]
+    modId="grandeconomy"
+    mandatory=true
+    versionRange="[1.4.0,)"
+    ordering="NONE"
+    side="BOTH"
